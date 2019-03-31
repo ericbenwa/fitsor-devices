@@ -29,8 +29,8 @@ long elapsedTimeSinceLastPullUp;// time between pull ups, used to determine acti
 int activePerson = 0;
 
 // Wifi Setup
-char ssid[] = "flux capacitor"; //  your network SSID (name) 
-char password[] = "applepie";   // your network password
+char ssid[] = "network_name"; //  your network SSID (name) 
+char password[] = "network_password";   // your network password
 int status = WL_IDLE_STATUS;
 WiFiClient client;
 
